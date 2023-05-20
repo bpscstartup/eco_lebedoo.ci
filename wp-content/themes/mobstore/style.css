@@ -1,0 +1,44 @@
+/*
+Theme Name: Theme MobStore
+Description:
+Author:
+Author URI:
+Template: adifier
+Version: 0.1.0
+*/
+
+/* ---start css additionnal content--- */
+.header-1,.open-header, .open{
+	background: #ffff;
+	text-decoration: #362d62;
+	text-decoration-color: #362d62;
+	
+}
+.white-blok, .advert-item ,.advert-grid img{
+	border-radius: 20px;
+	width:257.5;
+	height:181.33;
+}
+.advert-grid img{
+	width: 257.5;
+	height:151;
+}
+
+.advert-media::before{
+	background-color::transparent;
+	width: 257;
+	height:181;
+}
+/*  ---end additionnal css -- */
+
+/* responsive kc-search */
+.kc-search {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .kc-search {
+    font-size: 14px;
+    height: 40px;
+  }
+}
+/* end responsive kc-search*/
